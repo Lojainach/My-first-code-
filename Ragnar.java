@@ -1,10 +1,10 @@
-public class Animal {
-  void sound() {
-  System.out.println("The animal makes a sound");
+class Animal {
+    void sound() {
+    System.out.println("The animal makes a sound");
     }
-}
-class Cat extends Animal {
-  String name;
+    }
+public class Cat extends Animal {
+    String name;
 
     public Cat(String name) {
     this.name = name;
@@ -16,4 +16,4 @@ class Cat extends Animal {
     Cat myCat = new Cat("Ragnar");
     myCat.sound();
     }
-}
+    }
