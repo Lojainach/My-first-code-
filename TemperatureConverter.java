@@ -19,7 +19,7 @@ double fahrenheit = input.nextDouble();
 result = (fahrenheit - 32) * 5 / 9;
 System.out.println("Temperature in Celsius: " + result + "°C");
 } else {
-System.out.println("Invalid option ❌");
+System.out.println("Invalid option");
 }
 
 input.close();
